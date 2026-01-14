@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netrunner Chat V2.0.4</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="crt-container">
+        <div class="scanlines"></div>
+        <div class="screen-glow"></div>
+
+        <div class="system-header">
+            <span class="blink-symbol">⚡</span> CONNECTED // SOCKET.IO
+        </div>
+
+        <div class="main-interface">
+            <aside class="sidebar">
+                <div class="panel-header">USERS [ONLINE: 4]</div>
+                <ul class="user-list">
+                    <li class="active">&gt; CYBER_SAMURAI (ONLINE)</li>
+                    <li>&gt; GLITCH_QUEEN (ONLINE)</li>
+                    <li class="offline">&gt; NETRUNNER_01 (OFFLINE)</li>
+                    <li class="offline">&gt; NETRUNNER_01 (OFFLINE)</li>
+                    <li class="offline">&gt; NETRUNNER_01 (OFFLINE)</li>
+                </ul>
+            </aside>
+
+            <main class="chat-window">
+                <div class="panel-header filled">NETRUNNER CHAT V2.0.4 - CHANNEL: #LOBBY</div>
+                
+                <div class="messages-container">
+                    <div class="message-group left">
+                        <div class="message-box">
+                            <span class="timestamp">[13:24:03]</span> &lt;CYBER_SAMURAI&gt; Yo, check the data feed.
+                        </div>
+                    </div>
+
+                    <div class="message-group right">
+                        <div class="message-box">
+                            <span class="timestamp">[13:24:03]</span> &lt;CYBER_SAMURAI&gt; Yes are the out.
+                        </div>
+                    </div>
+
+                    <div class="message-group left">
+                        <div class="message-box">
+                            <span class="timestamp">[13:24:15]</span> &lt;GLITCH_QUEEN&gt; Encrypted. Need a bypass.
+                        </div>
+                    </div>
+
+                    <div class="message-group right">
+                        <div class="message-box">
+                            <span class="timestamp">[13:24:25]</span> &lt;CYBER_SAMURAI&gt; Yo, what's the ground the intire chat.
+                        </div>
+                    </div>
+                    
+                     <div class="message-group left">
+                        <div class="message-box">
+                            <span class="timestamp">[13:24:15]</span> &lt;GLITCH_QUEEN&gt; Encrypted. Need a bypass someons.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-area">
+                    <span class="prompt">&gt;</span><span class="cursor">█</span>
+                </div>
+            </main>
+        </div>
+
+        <div class="system-footer">
+            STATUS: <span class="secure">SECURE</span> // PING: 24ms
+        </div>
+    </div>
+
+</body>
+</html>
